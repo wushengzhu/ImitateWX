@@ -1,0 +1,32 @@
+<template>
+	<view class="page">
+<!-- 		<image class="logo" src="/static/logo.png"></image>
+		<view class="text-area">
+			<text class="title">{{title}}</text>
+		</view> -->
+		<view class="flex">
+			<view class="flex-1 main-bg-color" style="height: 200rpx;"></view>
+			<view class="flex-1 " style="height: 200rpx;"></view>
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				title: 'Hello'
+			}
+		},
+		onLoad() {
+
+		},
+		methods: {
+
+		}
+	}
+</script>
+
+<style>
+
+</style>
